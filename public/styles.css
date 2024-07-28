@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap'); /* Replace with Klavika if available */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', sans-serif; /* Replace with 'Klavika' if available */
+    margin: 0;
+    color: #1877f2;
+}
+
+.container {
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hidden-label {
+    display: none;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #5ab109;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #165bbf;
+}
+.btn:hover {
+    background-color: #165bbf;
+}
+
+.forgot-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.or-divider span {
+    margin: 0 5px;
+    font-size: 15px;
+}
